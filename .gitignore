@@ -1,0 +1,9 @@
+*.log
+*history*
+*Cookies*
+*cookies*
+*token*
+*Token*
+*session*
+*.pem
+*.key

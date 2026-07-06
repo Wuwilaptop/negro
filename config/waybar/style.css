@@ -1,0 +1,70 @@
+* {
+    border: none;
+    border-radius: 0;
+    font-family: "JetBrainsMono Nerd Font", Roboto, Helvetica, Arial, sans-serif;
+    font-size: 13px;
+    font-weight: bold;
+    min-height: 0;
+}
+
+window#waybar {
+    background-color: rgba(0, 0, 0, 1); 
+    color: #ffffff;
+    transition-property: background-color;
+    transition-duration: .5s;
+}
+
+#modules-left, #modules-center, #modules-right {
+    background: transparent;
+    padding: 2px 4px;
+}
+
+#custom-arch, #workspaces, #clock, #custom-wallpaper, #pulseaudio, #backlight, #bluetooth, #network, #battery, #custom-power {
+    background-color: rgba(0, 0, 0, 0.5); 
+    color: #ffffff; 
+    padding: 0px 12px;
+    margin: 4px 4px;
+    border-radius: 6px;
+    border: 1px solid rgba(122, 162, 247, 0.2);
+}
+
+#custom-arch {
+    color: #ffffff;
+    font-size: 16px;
+    padding-right: 15px;
+}
+
+#workspaces button {
+    padding: 0px 5px;
+    color: #888888; 
+    background: transparent;
+}
+
+#workspaces button.active {
+    color: #ffffff; 
+    border-bottom: 2px solid #ffffff;
+}
+
+#workspaces button.urgent {
+    color: #f7768e; 
+}
+
+#workspaces button:hover {
+    background: rgba(122, 162, 247, 0.1);
+    color: #7aa2f7;
+}
+
+#clock {
+    color: #ffffff; 
+    background-color: rgba(0, 0, 0, 0.9);
+}
+
+#custom-power {
+    color: #f7768e; 
+    padding-right: 14px;
+}
+
+#custom-power:hover {
+    background-color: #f7768e;
+    color: #1a1b26;
+}

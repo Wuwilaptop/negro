@@ -1,0 +1,27 @@
+format = """
+$os$directory$fill
+$character"""
+
+add_newline = false
+
+[os]
+disabled = false
+format = "[$symbol ]($style)"
+style = "bold white"
+
+[os.symbols]
+Arch = "󰣇"
+
+[directory]
+style = "bold white"
+format = "[$path]($style) "
+truncation_length = 3
+truncation_symbol = "…/"
+
+[fill]
+symbol = "."
+style = "bold dimmed white"
+
+[character]
+success_symbol = "[❯](bold green)"
+error_symbol = "[❯](bold red)"
