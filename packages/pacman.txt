@@ -56,7 +56,6 @@ slurp
 smartmontools
 sof-firmware
 starship
-steam
 sudo
 timeshift
 tmux
